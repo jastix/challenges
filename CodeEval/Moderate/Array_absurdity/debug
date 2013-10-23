@@ -1,0 +1,190 @@
+
+
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim)
+fchdir() to previous dir
+sourcing "$VIM/vimrc"
+finished sourcing $VIM/vimrc
+chdir(/Users/Admin)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+Searching for "bundle/tpope-vim-pathogen/autoload/pathogen.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/bundle/tpope-vim-pathogen/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/bundle/tpope-vim-pathogen/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/bundle/tpope-vim-pathogen/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/bundle/tpope-vim-pathogen/autoload/pathogen.vim"
+Searching for "/Users/Admin/.vim/after/bundle/tpope-vim-pathogen/autoload/pathogen.vim"
+not found in 'runtimepath': "bundle/tpope-vim-pathogen/autoload/pathogen.vim"
+Searching for "autoload/pathogen.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/autoload/pathogen.vim"
+Searching for "/Users/Admin/.vim/after/autoload/pathogen.vim"
+not found in 'runtimepath': "autoload/pathogen.vim"
+Searching for "autoload/pathogen.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/autoload/pathogen.vim"
+Searching for "/Users/Admin/.vim/after/autoload/pathogen.vim"
+not found in 'runtimepath': "autoload/pathogen.vim"
+                                                   Error detected while processing /Users/Admin/.vimrc:
+line   16:
+E117: Unknown function: pathogen#infect
+Searching for "autoload/pathogen.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/autoload/pathogen.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/autoload/pathogen.vim"
+Searching for "/Users/Admin/.vim/after/autoload/pathogen.vim"
+not found in 'runtimepath': "autoload/pathogen.vim"
+line   17:
+E117: Unknown function: pathogen#helptags
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 36: sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/syntax/synload.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim"
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/syntax/syncolor.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+continuing in /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/Admin/.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+continuing in /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+Searching for "filetype.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/filetype.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+line 25: sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/ftdetect/*.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/ftdetect/*.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/Admin/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+continuing in /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/Admin/.vim/after/filetype.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+continuing in /Users/Admin/.vimrc
+:!mkdir ~/.vim/backups > /dev/null 2>&1
+
+Calling shell to execute: "mkdir ~/.vim/backups > /dev/null 2>&1"
+shell returned 1
+
+Searching for "filetype.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/filetype.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+line 68: sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+continuing in /Users/Admin/.vimrc
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/Admin/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/ftplugin.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim"
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+line 68: sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+continuing in /Users/Admin/.vimrc
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/ftplugin.vim"
+Searching for "/Users/Admin/.vim/after/ftplugin.vim"
+Searching for "filetype.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/filetype.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+line 69: sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+continuing in /Users/Admin/.vimrc
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/Admin/.vim/after/filetype.vim"
+Searching for "indent.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/indent.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/indent.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/indent.vim"
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+line 69: sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/indent.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+continuing in /Users/Admin/.vimrc
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/indent.vim"
+Searching for "/Users/Admin/.vim/after/indent.vim"
+finished sourcing $HOME/.vimrc
+Searching for "plugin/**/*.vim" in "/Users/Admin/.vim,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime,/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/Admin/.vim/after"
+Searching for "/Users/Admin/.vim/plugin/**/*.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/plugin/**/*.vim"
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/**/*.vim"
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim
+chdir(/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim"
+finished sourcing /usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim
+Searching for "/usr/local/Cellar/macvim/7.3-66/MacVim.app/Contents/Resources/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/Users/Admin/.vim/after/plugin/**/*.vim"
+Reading viminfo file "/Users/Admin/.viminfo" info oldfiles
+Executing BufEnter Auto commands for "*"
+autocommand sil! call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand sil! call s:VimEnter(expand("<amatch>"))
+
+
+Writing viminfo file "/Users/Admin/.viminfo"
