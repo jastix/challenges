@@ -10,16 +10,7 @@
 
 var fs  = require("fs");
 
-// calculate distance between two points
-function calcDistance(x1, y1, x2, y2) {
-    return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-}
-
-function isSuitableForHole(holeDist, brickDist) {
-    "use strict";
-    return brickDist <= holeDist;
-}
-
+// fix parseInt to work with map.
 function returnInt(element) {
     return parseInt(element, 10);
 }
@@ -30,11 +21,10 @@ fs.readFileSync(process.argv[2]).toString().split('\n').forEach(function (line) 
         var hole = {},
             holeCoord,
             bricks,
-            holeDist,
             holeCoordRegExp,
             bricksCoordRegExp,
             suitableBricks = [];
-        console.log("Line: " + line);
+
         // define Regular Expression to match numerical data about a hole
         holeCoordRegExp = /\d+|[+|-]\d+/g;
 
@@ -46,8 +36,8 @@ fs.readFileSync(process.argv[2]).toString().split('\n').forEach(function (line) 
         hole.x2 = parseInt(holeCoord[2], 10);
         hole.y2 = parseInt(holeCoord[3], 10);
 
-        // calculate distance between two points for the hole
-        holeDist = calcDistance(hole.x1, hole.y1, hole.x2, hole.y2);
+        var holeWidth = Math.abs(hole.x1 - hole.x2);
+        var holeHeight = Math.abs(hole.y1 - hole.y2);
 
         // define Regular Expression to match numerical data about each brick
         bricksCoordRegExp = /[+|-]\d+|\d+(?=\s)|\d+(?=,|\])/g;
@@ -56,10 +46,26 @@ fs.readFileSync(process.argv[2]).toString().split('\n').forEach(function (line) 
 
         bricks.forEach(function (brick) {
             var brickCoord = brick.match(bricksCoordRegExp).map(returnInt);
-            var brickDist = calcDistance(brickCoord[1], brickCoord[2], brickCoord[4], brickCoord[5]);
-            if (isSuitableForHole(holeDist, brickDist)) {
+
+            var brickDepth = Math.abs(brickCoord[3] - brickCoord[6]);
+            var brickWidth = Math.abs(brickCoord[1] - brickCoord[4]);
+            var brickHeight = Math.abs(brickCoord[2] - brickCoord[5]);
+
+            // compare different planes of the brick with the hole
+            if  ( (brickWidth <= holeWidth) && (brickHeight <= holeHeight) ) {
+                suitableBricks.push(brickCoord[0]);
+            } else if ( (brickWidth <= holeWidth) && (brickDepth <= holeHeight) ) {
+                suitableBricks.push(brickCoord[0]);
+            } else if ( (brickDepth <= holeWidth) && (brickWidth <= holeHeight) ) {
+                suitableBricks.push(brickCoord[0]);
+            } else if ( (brickHeight <= holeWidth) && (brickWidth <= holeHeight)) {
+                suitableBricks.push(brickCoord[0]);
+            } else if ( (brickHeight <= holeHeight) && (brickDepth <= holeWidth) ) {
+                suitableBricks.push(brickCoord[0]);
+            } else if ( (brickDepth <= holeHeight) && (brickHeight <= holeWidth) ) {
                 suitableBricks.push(brickCoord[0]);
             }
+
         });
 
         if (suitableBricks.length === 0) {
