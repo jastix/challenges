@@ -9,11 +9,10 @@
 
 File.open(ARGV[0]).each_line do |line|
   unless line.chomp.empty?
-    if line.length <= 55
-      puts line
-    else
-      idx = line[0..40].rstrip.rindex(" ")
-      puts idx == nil ? "#{line[0..40].rstrip}... <Read More>" : "#{line[0...idx]}... <Read More>" 
+    if line.rstrip.length > 55
+      idx = line[0...40].rindex(" ")
+      line = idx == nil ? "#{line[0...40].rstrip}... <Read More>" : "#{line[0...idx]}... <Read More>" 
     end
+    puts line
   end
 end
