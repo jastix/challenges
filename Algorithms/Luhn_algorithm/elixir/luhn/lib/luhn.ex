@@ -9,7 +9,7 @@ defmodule Luhn do
       true ->
         File.stream!(arg)
         |> Stream.map(fn(line) -> check_validity(line) end)
-        |> Enum.each(fn(result) -> IO.puts(result) end)
+        |> Enum.each(fn(result) -> format_output(result) end)
       _ ->
         IO.puts "File not found"
     end
@@ -47,6 +47,9 @@ defmodule Luhn do
     Stream.map(list, fn(x) -> String.to_integer(x) end)
     |> Enum.sum
   end
+
+  def format_output("1"), do: IO.puts "Valid"
+  def format_output(_),   do: IO.puts "Invalid"
 
   def is_valid?(0), do: "1"
   def is_valid?(_), do: "0"
