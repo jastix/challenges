@@ -22,7 +22,7 @@ defmodule Luhn do
     |> double_every_second_digit
     |> sum_double_numbers
     |> sum_digits
-    |> rem(10)
+    |> modulo
     |> is_valid?
   end
 
@@ -64,4 +64,6 @@ defmodule Luhn do
     String.to_integer(a) + String.to_integer(b)
     |> Integer.to_string
   end
+
+  defp modulo(num), do: rem(num, 10)
 end
